@@ -1,6 +1,6 @@
 import React from "react";
 
-class IrregularInfo extends React.Component {
+class IrregularVerbs extends React.Component {
   render() {
     return(
       <div>
@@ -10,11 +10,12 @@ class IrregularInfo extends React.Component {
         <div><p>Past simple</p><input id="inputPastSimple" value="verb.pastSimple"/></div>
         <div><p>Past principle</p><input id="inputPastPrinciple" value="verb.pastPrinciple"/></div>
         <p>komarov884</p>
-        <button id="check" onclick="check(inputInfinitive.value, inputInfinitive.value)">Check</button>
+        {/*<button id="check" onClick="check(inputInfinitive.value, inputInfinitive.value)">Check</button>*/}
+        <button id="getVerb" onClick={this.props.getVerb}>getVerb</button>
         <div><p>Result</p><label id="result">result</label></div>
       </div>
     );
   }
 }
 
-export default IrregularInfo;
+export default IrregularVerbs;
