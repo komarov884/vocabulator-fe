@@ -1,5 +1,5 @@
 import React from "react";
-import IrregularVerbs from "./components/irregularVerbs"
+import IrregularVerb from "./components/IrregularVerb"
 
 
 class App extends React.Component {
@@ -19,7 +19,7 @@ class App extends React.Component {
         <p><a href="/irregular-verbs">Irregular verbs</a></p>
         <p>komarov884</p>
         <p>2019</p>
-        <IrregularVerbs getVerb={this.getVerb} />
+        <IrregularVerb getVerb={this.getVerb} />
       </div>
     );
   }

@@ -1,6 +1,6 @@
 import React from "react";
 
-class IrregularVerbs extends React.Component {
+class IrregularVerb extends React.Component {
   render() {
     return(
       <div>
@@ -18,4 +18,4 @@ class IrregularVerbs extends React.Component {
   }
 }
 
-export default IrregularVerbs;
+export default IrregularVerb;
